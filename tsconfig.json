@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2021",
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "removeComments": true,
+    "sourceMap": false,
+    "rootDir": ".",
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "strict": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
